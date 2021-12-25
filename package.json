@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npx tsc",
+    "prepare": "npx tsc",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "node_modules/.bin/eslint ."
