@@ -16,7 +16,7 @@ import {
   grey,
 } from 'colors'
 
-const colorsMap = {
+export const colorsMap = {
   rainbow,
   zebra,
   america,
