@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 
 import allAnimals from './animals'
+import type { Args } from './types'
 import { createTextBaloon, getColor } from './utils'
+
 const [_, __, ...restArgs] = process.argv
-const args = { animal: null, text: null, color: null }
+const args: Args = { animal: null, text: null, color: null }
 
 for (let i = 0; i < restArgs.length; i++) {
   const el = restArgs[i]

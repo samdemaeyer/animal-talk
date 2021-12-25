@@ -6,7 +6,7 @@
   "scripts": {
     "preinstall": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc"
+    "lint": "node_modules/.bin/eslint ."
   },
   "bin": {
     "animaltalk": "./dist/talk.js"
@@ -19,6 +19,11 @@
   },
   "devDependencies": {
     "@types/node": "^17.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint": "^7.32.0",
+    "prettier": "^2.5.1",
     "typescript": "^4.5.4"
   }
 }
