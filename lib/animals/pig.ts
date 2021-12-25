@@ -1,7 +1,7 @@
-const colors = require('colors');
+import type { TextBaloon } from '../utils'
 
-module.exports = function ({ firstRow, middleRow, lastRow }) {
-  return colors.magenta(`
+export const pig = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
+  return `
                          /\\                  ${firstRow}
                         /  \`.               ${middleRow}
                       ,'     \`.              ${lastRow}
@@ -21,5 +21,5 @@ module.exports = function ({ firstRow, middleRow, lastRow }) {
          (    |\`-._\\    | ,' /
           \`.__|__/ "\\   |'  /
                      \`._|_,'
-`)
+`
 }
