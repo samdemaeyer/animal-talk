@@ -1,8 +1,8 @@
 {
   "name": "animal-talk",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "CLI tool to print out messages spoken by ASCII art animals",
+  "main": "./dist/talk.js",
   "scripts": {
     "prepare": "npx tsc",
     "test": "node_modules/.bin/jest",
@@ -12,7 +12,17 @@
   "bin": {
     "animaltalk": "./dist/talk.js"
   },
-  "keywords": [],
+  "keywords": [
+    "animal talk",
+    "animal",
+    "animals",
+    "CLI output",
+    "CLI",
+    "node cli",
+    "talk",
+    "talking animals",
+    "talking"
+  ],
   "author": "Sam De Maeyer",
   "license": "ISC",
   "dependencies": {
