@@ -1,11 +1,12 @@
 {
   "name": "animal-talk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI tool to print out messages spoken by ASCII art animals",
   "main": "./dist/talk.js",
   "scripts": {
     "prepare": "npx tsc",
     "test": "node_modules/.bin/jest",
+    "talk": "node ./dist/lib/talk.js",
     "test:watch": "node_modules/.bin/jest --watch",
     "lint": "node_modules/.bin/eslint ."
   },
