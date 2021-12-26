@@ -25,7 +25,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 | Key        | input                                                                                                                                  |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `--text`   | text to pass through to the animal                                                                                                     |
-| `--animal` | `aardvark`, `elephant`, `moose`, `pig`, `horse`                                                                                        |
+| `--animal` | `aardvark`, `elephant`, `moose`, `pig`, `horse`, `frog`, `donkey`, `possum`, `snail`, `lamb`, `crocodile`, `snake`, `turtle`           |
 | `--color`  | `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `gray`, `grey`, `rainbow`, `zebra`, `america`, `trap`, `random` |
 
 #### Example
