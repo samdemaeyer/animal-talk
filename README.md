@@ -34,6 +34,9 @@ When using the `animaltalk` command, there are some options that can be specefie
 
 ```bash
 $ animaltalk -t 'Hello there, how are you?' -a pig -c magenta
+```
+
+```
 
                          /\                  ---------------------------------
                         /  `.               <   Hello there, how are you?   >
