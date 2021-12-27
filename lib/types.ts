@@ -1,5 +1,3 @@
-export type Args = {
-  animal: string
-  text: string
-  color: string
-}
+import type animals from './animals'
+
+export type Animals = keyof typeof animals | 'random'

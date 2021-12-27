@@ -32,8 +32,13 @@ export const colorsMap = {
   white,
   gray,
   grey,
-}
+} as const
 
-export const getColor = color => {
+// @TODO: unify Color type to be used from argv options
+export const getColor = (color?: keyof typeof colorsMap) => {
+  if (!color) {
+    return null
+  }
+
   return colorsMap[color]
 }
