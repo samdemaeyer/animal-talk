@@ -1,29 +1,31 @@
-import { pig } from './pig'
-import { elephant } from './elephant'
 import { aardvark } from './aardvark'
-import { moose } from './moose'
-import { horse } from './horse'
-import { frog } from './frog'
+import { crocodile } from './crocodile'
 import { donkey } from './donkey'
+import { elephant } from './elephant'
+import { frog } from './frog'
+import { horse } from './horse'
+import { lamb } from './lamb'
+import { moose } from './moose'
+import { pig } from './pig'
 import { possum } from './possum'
 import { snail } from './snail'
-import { lamb } from './lamb'
-import { crocodile } from './crocodile'
 import { snake } from './snake'
 import { turtle } from './turtle'
 
-export default {
-  pig,
-  elephant,
+const animals = {
   aardvark,
-  moose,
-  horse,
-  frog,
+  crocodile,
   donkey,
+  elephant,
+  frog,
+  horse,
+  lamb,
+  moose,
+  pig,
   possum,
   snail,
-  lamb,
-  crocodile,
   snake,
   turtle,
-}
+} as const
+
+export default animals
