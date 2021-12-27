@@ -33,7 +33,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 #### Example
 
 ```bash
-$ animaltalk --text 'Hello there, how are you?' --animal pig --color magenta
+$ animaltalk -t 'Hello there, how are you?' -a pig -c magenta
 
                          /\                  ---------------------------------
                         /  `.               <   Hello there, how are you?   >
