@@ -1,7 +1,7 @@
 import { r, l } from '../utils/directions'
 import type { AnimalArgs } from './types'
 
-export const crocodile = ({ createTextBaloon, text }: AnimalArgs) =>
+export const crocodile = ({ createSpeechBubble, text }: AnimalArgs) =>
   `
                        .--.  .--.
                       /    \\/    \\
@@ -26,4 +26,4 @@ export const crocodile = ({ createTextBaloon, text }: AnimalArgs) =>
                          .-\`'-._          .'      ${r}${r}
                        .'       \`\`''---''\`       ${r}${r}
                                                 ${r}${r}
-` + createTextBaloon(50, text)
+` + createSpeechBubble(50, text)

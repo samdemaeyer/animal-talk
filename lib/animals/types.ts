@@ -1,6 +1,9 @@
-import type { CreateTextBaloonOutput, TextBaloonIndentationsLength, TextBaloonText } from '../utils'
+import type { CreateSpeechBubbleOutput, TextBaloonIndentationsLength, SpeechBubbleText } from '../utils'
 
 export type AnimalArgs = {
-  createTextBaloon: (indentationsLength: TextBaloonIndentationsLength, text: TextBaloonText) => CreateTextBaloonOutput
-  text: TextBaloonText
+  createSpeechBubble: (
+    indentationsLength: TextBaloonIndentationsLength,
+    text: SpeechBubbleText
+  ) => CreateSpeechBubbleOutput
+  text: SpeechBubbleText
 }

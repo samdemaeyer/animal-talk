@@ -1,7 +1,7 @@
 import { r } from '../utils/directions'
 import type { AnimalArgs } from './types'
 
-export const moose = ({ createTextBaloon, text }: AnimalArgs) =>
+export const moose = ({ createSpeechBubble, text }: AnimalArgs) =>
   `
                                       _.--"""--,
                                     .'          \`\\
@@ -30,4 +30,4 @@ export const moose = ({ createTextBaloon, text }: AnimalArgs) =>
                   ${r}    \\ \\'._  \` '_.'
                  ${r}      \`""\` \`"""\`
                 ${r}
-` + createTextBaloon(17, text)
+` + createSpeechBubble(17, text)

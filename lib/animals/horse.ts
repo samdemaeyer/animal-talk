@@ -1,8 +1,8 @@
 import { r, l } from '../utils/directions'
 import type { AnimalArgs } from './types'
 
-export const horse = ({ createTextBaloon, text }: AnimalArgs) =>
-  createTextBaloon(41, text) +
+export const horse = ({ createSpeechBubble, text }: AnimalArgs) =>
+  createSpeechBubble(41, text) +
   `
                                         ${l}
                                          ${l}
