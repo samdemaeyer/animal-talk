@@ -1,26 +1,8 @@
-import {
-  rainbow,
-  zebra,
-  america,
-  trap,
-  random,
-  black,
-  red,
-  green,
-  yellow,
-  blue,
-  magenta,
-  cyan,
-  white,
-  gray,
-  grey,
-} from 'colors'
+import { rainbow, america, random, black, red, green, yellow, blue, magenta, cyan, white, gray, grey } from 'colors'
 
 export const colorsMap = {
   rainbow,
-  zebra,
   america,
-  trap,
   random,
   black,
   red,

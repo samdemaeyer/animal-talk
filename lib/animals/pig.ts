@@ -1,16 +1,18 @@
-import type { TextBaloon } from '../utils'
+import { l, r } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const pig = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-                         /\\                  ${firstRow}
-                        /  \`.               ${middleRow}
-                      ,'     \`.              ${lastRow}
-       /\`.________   (         :                /
-       \\          \`. _\\_______  )              /
-        \\ \`.----._  \`.        "\`-.            /
-         )  \\     \\   \`       ,"__\\          /
-         \\   \\     )    ,--    (/o\\\\        /
-     (  _ \`.  \`---'     ,--.    \\ _)).     /
+export const pig = ({ createSpeechBubble, text }: AnimalArgs) =>
+  createSpeechBubble(45, text) +
+  `
+                         /\\                 ${l}
+                        /  \`.                ${l}
+                      ,'     \`.               ${l}
+       /\`.________   (         :               ${l}
+       \\          \`. _\\_______  )              ${r}
+        \\ \`.----._  \`.        "\`-.            ${r}
+         )  \\     \\   \`       ,"__\\          ${r}
+         \\   \\     )    ,--    (/o\\\\        ${r}
+     (  _ \`.  \`---'     ,--.    \\ _)).     ${r}
       \`(-',-\`----'     ( (O \\    \`--,"\`-.
         \`/              \\ \\__)    ,'   O )
         /                \`--'     (  O  ,'
@@ -22,4 +24,3 @@ export const pig = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
           \`.__|__/ "\\   |'  /
                      \`._|_,'
 `
-}

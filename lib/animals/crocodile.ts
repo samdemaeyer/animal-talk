@@ -1,7 +1,8 @@
-import type { TextBaloon } from '../utils'
+import { r, l } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const crocodile = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
+export const crocodile = ({ createSpeechBubble, text }: AnimalArgs) =>
+  `
                        .--.  .--.
                       /    \\/    \\
                      /   .-.  .-. |
@@ -17,16 +18,12 @@ export const crocodile = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
   /'              |     \\   \\ \\ |/\`'-.,____..-\`\`|/
                   \\  ,   \\   \\ \\\`,       |/     \`
                    \\/|    \\   \\ /|       \`
-                    \\/     \`   ;-\`'.   ,        \\\\
-                     \`'-.   ,   '.  '-/|    ,    \\\\
-                         './|     '-. \`\`;--/|-.   \\\\
-                           '\`'--.,___) /|.-'"\` )   \\\\
-                      '--._          \`"\`    .-'    //
-                         .-\`'-._          .'      //
-                       .'       \`\`''---''\`       //
-                                                //
-                            ${firstRow}
-                            ${middleRow}
-                            ${lastRow}
-`
-}
+                    \\/     \`   ;-\`'.   ,        ${l}${l}
+                     \`'-.   ,   '.  '-/|    ,    ${l}${l}
+                         './|     '-. \`\`;--/|-.   ${l}${l}
+                           '\`'--.,___) /|.-'"\` )   ${l}${l}
+                      '--._          \`"\`    .-'    ${r}${r}
+                         .-\`'-._          .'      ${r}${r}
+                       .'       \`\`''---''\`       ${r}${r}
+                                                ${r}${r}
+` + createSpeechBubble(50, text)

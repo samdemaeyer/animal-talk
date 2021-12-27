@@ -1,4 +1,4 @@
 export * from './argv'
-export * from './create-text-baloon'
+export * from './create-speech-bubble'
 export * from './get-animal'
 export * from './get-color'

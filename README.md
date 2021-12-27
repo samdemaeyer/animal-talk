@@ -28,12 +28,15 @@ When using the `animaltalk` command, there are some options that can be specefie
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | `-t` \| `--text`   | text to pass through to the animal                                                                                                     | yes      |
 | `-a` \| `--animal` | `aardvark`, `elephant`, `moose`, `pig`, `horse`, `frog`, `donkey`, `possum`, `snail`, `lamb`, `crocodile`, `snake`, `turtle`, `random` | no       |
-| `-c` \| `--color`  | `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `gray`, `grey`, `rainbow`, `zebra`, `america`, `trap`, `random` | no       |
+| `-c` \| `--color`  | `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `gray`, `grey`, `rainbow`, `america`, `random`                  | no       |
 
 #### Example
 
 ```bash
-$ animaltalk --text 'Hello there, how are you?' --animal pig --color magenta
+$ animaltalk -t 'Hello there, how are you?' -a pig -c magenta
+```
+
+```
 
                          /\                  ---------------------------------
                         /  `.               <   Hello there, how are you?   >

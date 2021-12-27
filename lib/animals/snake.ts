@@ -1,15 +1,14 @@
-import type { TextBaloon } from '../utils'
+import { r, l } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const snake = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-  ${firstRow}
-  ${middleRow}
-  ${lastRow}
-      /
-     /
-    /       /^\\/^\\
-    \\     _|__|  O|
- \\/  \\  /~     \\_/ \\
+export const snake = ({ createSpeechBubble, text }: AnimalArgs) =>
+  createSpeechBubble(9, text) +
+  `
+      ${r}
+     ${r}
+    ${r}       /^\\/^\\
+    ${l}    _|__|  O|
+ \\/  ${l} /~     \\_/ \\
   \\____|__________/  \\
          \\_______      \\
                  \`\\     \\                 \\
@@ -26,4 +25,3 @@ export const snake = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
                 ~--______-~                ~-___-~
 
 `
-}

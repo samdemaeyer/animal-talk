@@ -1,20 +1,19 @@
-import type { TextBaloon } from '../utils'
+import { n, r, l } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const aardvark = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-  ${firstRow}
-  ${middleRow}
-  ${lastRow}
-    /
-   /           ,
-  /      (\`.  : \\               __..----..__
- |        \`.\`.| |:          _,-':::''' '  \`:\`-._
- |          \`.:\\||       _,':::::'         \`::::\`-.
- |            \\\\\`|    _,':::::::'     \`:.     \`':::\`.
- |             ;\` \`-''  \`::::::.                  \`::\\
-  \\         ,-'      .::'  \`:::::.         \`::..    \`:\\
-   \\      ,' /_) -.            \`::.           \`:.     |
-    \\   ,'.:     \`    \`:.        \`:.     .::.          \\
+export const aardvark = ({ createSpeechBubble, text }: AnimalArgs) =>
+  createSpeechBubble(7, text) +
+  `
+    ${r}
+   ${r}           ,
+  ${r}      (\`.  : \\               __..----..__
+ ${n}        \`.\`.| |:          _,-':::''' '  \`:\`-._
+ ${n}          \`.:\\||       _,':::::'         \`::::\`-.
+ ${n}            \\\\\`|    _,':::::::'     \`:.     \`':::\`.
+ ${n}             ;\` \`-''  \`::::::.                  \`::\\
+  ${l}         ,-'      .::'  \`:::::.         \`::..    \`:\\
+   ${l}      ,' /_) -.            \`::.           \`:.     |
+    ${l}   ,'.:     \`    \`:.        \`:.     .::.          \\
    __,-'   ___,..-''-.  \`:.        \`.   /::::.         |
   |):'_,--'           \`.    \`::..       |::::::.      ::\\
    \`-'                 |\`--.:_::::|_____\\::::::::.__  ::|
@@ -24,4 +23,3 @@ export const aardvark = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
                     ''''   (//|/\\      ,';':,-'         \`-.__  \`'--..__
                                                              \`''---::::'
 `
-}
