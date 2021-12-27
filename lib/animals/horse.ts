@@ -1,15 +1,14 @@
-import type { TextBaloon } from '../utils'
+import { r, l } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const horse = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-                              ${firstRow}
-                              ${middleRow}
-                              ${lastRow}
-                                        \\
-                                         \\
-                            _(\\_/)       /
-                          ,((((^\`\\      /
-                         ((((  (6 \\    /
+export const horse = ({ createTextBaloon, text }: AnimalArgs) =>
+  createTextBaloon(41, text) +
+  `
+                                        ${l}
+                                         ${l}
+                            _(\\_/)       ${r}
+                          ,((((^\`\\      ${r}
+                         ((((  (6 \\    ${r}
                        ,((((( ,    \\
    ,,,_              ,(((((  /"._  ,\`,
   ((((\\\\ ,...       ,((((   /    \`-.-'
@@ -28,4 +27,3 @@ export const horse = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
     \`'"                  \\_\\
                          \`'"
 `
-}

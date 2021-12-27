@@ -1,7 +1,8 @@
-import type { TextBaloon } from '../utils'
+import { r } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const moose = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
+export const moose = ({ createTextBaloon, text }: AnimalArgs) =>
+  `
                                       _.--"""--,
                                     .'          \`\\
   .-""""""-.                      .'              |
@@ -25,12 +26,8 @@ export const moose = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
                     |  /             |
                      \\ |             |
                       ||    _    _   /
-                   /  /|\\  (_\\  /_) /
-                  /   \\ \\'._  \` '_.'
-                 /     \`""\` \`"""\`
-                /
-    ${firstRow}
-    ${middleRow}
-    ${lastRow}
-`
-}
+                   ${r}  /|\\  (_\\  /_) /
+                  ${r}    \\ \\'._  \` '_.'
+                 ${r}      \`""\` \`"""\`
+                ${r}
+` + createTextBaloon(17, text)

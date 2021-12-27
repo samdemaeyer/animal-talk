@@ -1,17 +1,16 @@
-import type { TextBaloon } from '../utils'
+import { r } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const snail = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-                ${firstRow}
-                ${middleRow}
-                ${lastRow}
-                       /
-        /^\\    /^\\    /
-       {  O}  {  O}  /
-        \\ /    \\ /  /
-        //     //  /    _------_
-       //     //  /  ./~        ~-_
-      / ~----~/  /  /              \\
+export const snail = ({ createTextBaloon, text }: AnimalArgs) =>
+  createTextBaloon(26, text) +
+  `
+                       ${r}
+        /^\\    /^\\    ${r}
+       {  O}  {  O}  ${r}
+        \\ /    \\ /  ${r}
+        //     //  ${r}    _------_
+       //     //  ${r}  ./~        ~-_
+      / ~----~/  ${r}  /              \\
     /         :   ./       _---_    ~-
    |  \\________) :       /~     ~\\   |
    |        /    |      |  :~~\\  |   |
@@ -21,4 +20,3 @@ export const snail = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
     .|                                ~-_
    /_____________________________________~~____
 `
-}

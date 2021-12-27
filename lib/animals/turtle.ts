@@ -1,17 +1,16 @@
-import type { TextBaloon } from '../utils'
+import { r, l } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const turtle = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-  ${firstRow}
-  ${middleRow}
-  ${lastRow}
-             \\
-              \\                ___-------___
-               \\           _-~~             ~~-_
-                \\       _-~                    /~-_
-     /^\\__/^\\    \\    /~  \\                   /    \\
-   /|  O|| O|    /   /      \\_______________/        \\
-  | |___||__|   /  /       /                \\          \\
+export const turtle = ({ createTextBaloon, text }: AnimalArgs) =>
+  createTextBaloon(14, text) +
+  `
+             ${l}
+              ${l}                ___-------___
+               ${l}           _-~~             ~~-_
+                ${l}       _-~                    /~-_
+     /^\\__/^\\    ${l}    /~  \\                   /    \\
+   /|  O|| O|    ${r}   /      \\_______________/        \\
+  | |___||__|   ${r}  /       /                \\          \\
   |          \\    /      /                    \\          \\
   |   (_______) /______/                        \\_________ \\
   |         / /         \\                      /            \\
@@ -22,4 +21,3 @@ export const turtle = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
           (_(__/  ./     /                    \\_\\      \\.
                  (_(___/                         \\_____)_)
 `
-}

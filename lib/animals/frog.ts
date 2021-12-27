@@ -1,12 +1,11 @@
-import type { TextBaloon } from '../utils'
+import { r } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const frog = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-                                    ${firstRow}
-                                    ${middleRow}
-                                    ${lastRow}
-                              ..      /
-                            .' @\`._  /
+export const frog = ({ createTextBaloon, text }: AnimalArgs) =>
+  createTextBaloon(41, text) +
+  `
+                              ..      ${r}
+                            .' @\`._  ${r}
              ~       ...._.'  ,__.-;
           _..------/\`           .-'    ~
          :     __./'       ,  .'-'--.._
@@ -18,4 +17,3 @@ export const frog = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
               \`\`\`\`-----.......-----'''    ~
            ~
 `
-}

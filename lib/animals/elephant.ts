@@ -1,16 +1,15 @@
-import type { TextBaloon } from '../utils'
+import { r, l, n } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const elephant = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-    ${firstRow}
-    ${middleRow}
-    ${lastRow}
-        /
-       /
-      /       ___.-~"~-._   __....__
-     /      .'    \`    \\ ~"~        \`\`-.
-    |      /\` _      )  \`\\              \`\\
-     \\    /\`  a)    /     |               \`\\
+export const elephant = ({ createTextBaloon, text }: AnimalArgs) =>
+  createTextBaloon(11, text) +
+  `
+        ${r}
+       ${r}
+      ${r}       ___.-~"~-._   __....__
+     ${r}      .'    \`    \\ ~"~        \`\`-.
+    ${n}      /\` _      )  \`\\              \`\\
+     ${l}    /\`  a)    /     |               \`\\
          :\`        /      |                 \\
     <\`-._|\`  .-.  (      /   .            \`;\\\\
      \`-. \`--'_.'-.;\\___/'   .      .       | \\\\
@@ -24,4 +23,3 @@ export const elephant = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
               "---"  /___|        /___|  /__|
                      '"""         '"""  '"""
 `
-}

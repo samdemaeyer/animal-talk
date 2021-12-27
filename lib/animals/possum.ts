@@ -1,17 +1,16 @@
-import type { TextBaloon } from '../utils'
+import { l, r } from '../utils/directions'
+import type { AnimalArgs } from './types'
 
-export const possum = ({ firstRow, middleRow, lastRow }: TextBaloon) => {
-  return `
-                    ${firstRow}
-                    ${middleRow}
-                    ${lastRow}
-                               \\
-              :     :           \\
-        __    |     |    _,     /
-       (  ~~^-l_____],.-~  /   /
-        \\    ")\\ "^k. (_,-"   /
-         \`>._  ' _ \`\\  \\     /
-      _.-~/'^k. (0)  \` (0   /
+export const possum = ({ createTextBaloon, text }: AnimalArgs) =>
+  createTextBaloon(32, text) +
+  `
+                               ${l}
+              :     :           ${l}
+        __    |     |    _,     ${r}
+       (  ~~^-l_____],.-~  /   ${r}
+        \\    ")\\ "^k. (_,-"   ${r}
+         \`>._  ' _ \`\\  \\     ${r}
+      _.-~/'^k. (0)  \` (0   ${r}
    .-~   {    ~\` ~    ..T
   /   .   "-..       _.-'
  /    Y        .   "T
@@ -39,4 +38,3 @@ l   .-~~"-.    /    I
                               ^._  .^
                                  ~~
 `
-}
