@@ -1,5 +1,5 @@
 import { r } from '../utils/directions'
-import type { AnimalArgs } from './types'
+import type { AnimalArgs } from '../types'
 
 export const moose = ({ createSpeechBubble, text }: AnimalArgs) =>
   `
@@ -30,4 +30,4 @@ export const moose = ({ createSpeechBubble, text }: AnimalArgs) =>
                   ${r}    \\ \\'._  \` '_.'
                  ${r}      \`""\` \`"""\`
                 ${r}
-` + createSpeechBubble(17, text)
+` + createSpeechBubble(text, 17)
