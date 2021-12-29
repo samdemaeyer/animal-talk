@@ -5,8 +5,8 @@ export type Animal = keyof typeof animals | 'random'
 
 export type AnimalArgs = {
   createSpeechBubble: (
-    indentationsLength: TextBaloonIndentationsLength,
-    text: SpeechBubbleText
+    text: SpeechBubbleText,
+    indentationsLength: TextBaloonIndentationsLength
   ) => CreateSpeechBubbleOutput
   text: SpeechBubbleText
 }

@@ -30,4 +30,4 @@ export const moose = ({ createSpeechBubble, text }: AnimalArgs) =>
                   ${r}    \\ \\'._  \` '_.'
                  ${r}      \`""\` \`"""\`
                 ${r}
-` + createSpeechBubble(17, text)
+` + createSpeechBubble(text, 17)

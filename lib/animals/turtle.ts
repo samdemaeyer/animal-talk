@@ -2,7 +2,7 @@ import { r, l } from '../utils/directions'
 import type { AnimalArgs } from '../types'
 
 export const turtle = ({ createSpeechBubble, text }: AnimalArgs) =>
-  createSpeechBubble(14, text) +
+  createSpeechBubble(text, 14) +
   `
              ${l}
               ${l}                ___-------___

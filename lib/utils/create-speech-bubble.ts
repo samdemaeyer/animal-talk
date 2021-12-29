@@ -1,16 +1,13 @@
-import { reset } from 'colors'
+import { white } from 'colors'
 
 export type SpeechBubbleText = string
 export type TextBaloonIndentationsLength = number
 export type CreateSpeechBubbleOutput = string
 
-export const DEFAULT_TEXT = 'Welcome to animal talk, please pass add the `--text` param to be displayed here'
-export const TEXT_PREFIX = reset('<   ')
-export const TEXT_SUFFIX = reset('   >')
-export const FIRST_ROW_PREFIX = ' -------'
-export const FIRST_ROW_SUFFIX = '------- '
+const TEXT_PREFIX = '<   '
+const TEXT_SUFFIX = '   >'
 
-export const createSpeechBubble = (indentationsLength = 0, text: SpeechBubbleText): CreateSpeechBubbleOutput => {
+export const createSpeechBubble = (text: SpeechBubbleText, indentationsLength = 0): CreateSpeechBubbleOutput => {
   const { firstRow, middleRow, lastRow } = text.split('').reduce(
     ({ firstRow, middleRow, lastRow }, letter, currentIndex, array) => {
       const isLast = currentIndex === array.length - 1
@@ -25,5 +22,6 @@ export const createSpeechBubble = (indentationsLength = 0, text: SpeechBubbleTex
   )
 
   const indentations = Array.from({ length: indentationsLength - Math.round(middleRow.length / 2) }).join(' ')
-  return reset(`${indentations}${firstRow}\n${indentations}${middleRow}\n${indentations}${lastRow}`)
+
+  return white(`${indentations}${firstRow}\n${indentations}${middleRow}\n${indentations}${lastRow}`)
 }

@@ -1,12 +1,4 @@
-import { createSpeechBubble } from '../../utils'
+import { animalTest } from './helpers/animal-test'
 import { possum } from '../possum'
-import { readOutput } from './helpers/read-output'
 
-describe('possum()', () => {
-  it('should return the `possum` with the correct speech bubble', () => {
-    const text = 'some text'
-    const output = readOutput('possum')
-
-    expect(possum({ createSpeechBubble, text })).toBe(output)
-  })
-})
+animalTest(possum)

@@ -1,5 +1,5 @@
 import fs from 'fs'
 import path from 'path'
-import type { Animal } from '../../../types'
 
-export const readOutput = (animal: Animal) => fs.readFileSync(path.join(__dirname, `../outputs/${animal}.txt`), 'utf8')
+export const readOutput = (outputFileName: string) =>
+  fs.readFileSync(path.join(__dirname, `../outputs/${outputFileName}.txt`), 'utf8')
