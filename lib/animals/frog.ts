@@ -1,5 +1,5 @@
 import { r } from '../utils/directions'
-import type { AnimalArgs } from './types'
+import type { AnimalArgs } from '../types'
 
 export const frog = ({ createSpeechBubble, text }: AnimalArgs) =>
   createSpeechBubble(41, text) +
