@@ -34,7 +34,6 @@ export const argv = yargs
       describe: 'Choose a color',
       // @TODO: refactor to not duplicate color choices
       choices: [
-        'america',
         'black',
         'blue',
         'cyan',
@@ -42,7 +41,6 @@ export const argv = yargs
         'green',
         'grey',
         'magenta',
-        'rainbow',
         'random',
         'red',
         'white',

@@ -24,11 +24,46 @@ When using the `animaltalk` command, there are some options that can be specefie
 
 #### Options
 
-| Option             | input                                                                                                                                  | required |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| `-t` \| `--text`   | text to pass through to the animal                                                                                                     | yes      |
-| `-a` \| `--animal` | `aardvark`, `elephant`, `moose`, `pig`, `horse`, `frog`, `donkey`, `possum`, `snail`, `lamb`, `crocodile`, `snake`, `turtle`, `random` | no       |
-| `-c` \| `--color`  | `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `gray`, `grey`, `rainbow`, `america`, `random`                  | no       |
+| Option             | input                                        | required |
+| ------------------ | -------------------------------------------- | -------- |
+| `-t` \| `--text`   | Text to pass through to the animal           | yes      |
+| `-a` \| `--animal` | Chooses one of the below [Animals](#Animals) | no       |
+| `-c` \| `--color`  | Chooses one of the below [Colors](#Colors)   | no       |
+
+#### Animals
+
+- `aardvark`
+- `bulldog`
+- `bunny`
+- `cat`
+- `crocodile`
+- `donkey`
+- `elephant`
+- `frog`
+- `happyDog`
+- `horse`
+- `lamb`
+- `moose`
+- `pig`
+- `possum`
+- `random`
+- `snail`
+- `snake`
+- `turtle`
+
+#### Colors
+
+- `black`
+- `blue`
+- `cyan`
+- `gray`
+- `green`
+- `grey`
+- `magenta`
+- `random`
+- `red`
+- `white`
+- `yellow`
 
 #### Example
 
