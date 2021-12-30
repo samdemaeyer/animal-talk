@@ -50,6 +50,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `random`
 - `snail`
 - `snake`
+- `teddyBear`
 - `turtle`
 
 #### Colors

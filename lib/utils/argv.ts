@@ -27,6 +27,7 @@ export const argv = yargs
         'random',
         'snail',
         'snake',
+        'teddyBear',
         'turtle',
       ] as const,
     },

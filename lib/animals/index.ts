@@ -15,6 +15,7 @@ import { pig } from './pig'
 import { possum } from './possum'
 import { snail } from './snail'
 import { snake } from './snake'
+import { teddyBear } from './teddy-bear'
 import { turtle } from './turtle'
 
 const animals = {
@@ -35,6 +36,7 @@ const animals = {
   possum,
   snail,
   snake,
+  teddyBear,
   turtle,
 } as const
 
