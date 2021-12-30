@@ -3,6 +3,7 @@ import { crocodile } from './crocodile'
 import { donkey } from './donkey'
 import { elephant } from './elephant'
 import { frog } from './frog'
+import { happyDog } from './happy-dog'
 import { horse } from './horse'
 import { lamb } from './lamb'
 import { moose } from './moose'
@@ -18,6 +19,7 @@ const animals = {
   donkey,
   elephant,
   frog,
+  happyDog,
   horse,
   lamb,
   moose,
