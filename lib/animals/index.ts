@@ -18,6 +18,7 @@ import { snail } from './snail'
 import { snake } from './snake'
 import { teddyBear } from './teddy-bear'
 import { turtle } from './turtle'
+import { worm } from './worm'
 
 const animals = {
   aardvark,
@@ -40,6 +41,7 @@ const animals = {
   snake,
   teddyBear,
   turtle,
+  worm,
 } as const
 
 export default animals

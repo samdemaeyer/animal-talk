@@ -30,6 +30,7 @@ export const argv = yargs
         'snake',
         'teddyBear',
         'turtle',
+        'worm',
       ] as const,
     },
     c: {

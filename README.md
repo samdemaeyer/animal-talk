@@ -44,6 +44,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `happyDog`
 - `horse`
 - `lamb`
+- `lion`
 - `moose`
 - `pig`
 - `possum`
@@ -52,6 +53,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `snake`
 - `teddyBear`
 - `turtle`
+- `worm`
 
 #### Colors
 
