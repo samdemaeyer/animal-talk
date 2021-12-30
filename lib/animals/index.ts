@@ -1,4 +1,5 @@
 import { aardvark } from './aardvark'
+import { cat } from './cat'
 import { crocodile } from './crocodile'
 import { donkey } from './donkey'
 import { elephant } from './elephant'
@@ -15,6 +16,7 @@ import { turtle } from './turtle'
 
 const animals = {
   aardvark,
+  cat,
   crocodile,
   donkey,
   elephant,

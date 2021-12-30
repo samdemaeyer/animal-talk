@@ -10,6 +10,7 @@ export const argv = yargs
       // @TODO: refactor to not duplicate animal choices
       choices: [
         'aardvark',
+        'cat',
         'crocodile',
         'donkey',
         'elephant',
