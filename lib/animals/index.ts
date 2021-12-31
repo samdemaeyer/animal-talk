@@ -14,6 +14,7 @@ import { horse } from './horse'
 import { lamb } from './lamb'
 import { lion } from './lion'
 import { moose } from './moose'
+import { parrot } from './parrot'
 import { pig } from './pig'
 import { possum } from './possum'
 import { prayingMonkey } from './praying-monkey'
@@ -40,6 +41,7 @@ const animals = {
   lamb,
   lion,
   moose,
+  parrot,
   pig,
   possum,
   prayingMonkey,

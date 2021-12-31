@@ -25,6 +25,7 @@ export const argv = yargs
         'lamb',
         'lion',
         'moose',
+        'parrot',
         'pig',
         'possum',
         'prayingMonkey',

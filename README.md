@@ -48,6 +48,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `lamb`
 - `lion`
 - `moose`
+- `parrot`
 - `pig`
 - `possum`
 - `prayingMonkey`
