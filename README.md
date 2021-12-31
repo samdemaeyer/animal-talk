@@ -43,12 +43,14 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `elephant`
 - `frog`
 - `happyDog`
+- `hangingMonkey`
 - `horse`
 - `lamb`
 - `lion`
 - `moose`
 - `pig`
 - `possum`
+- `prayingMonkey`
 - `random`
 - `snail`
 - `snake`

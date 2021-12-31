@@ -8,6 +8,7 @@ import { crocodile } from './crocodile'
 import { donkey } from './donkey'
 import { elephant } from './elephant'
 import { frog } from './frog'
+import { hangingMonkey } from './hanging-monkey'
 import { happyDog } from './happy-dog'
 import { horse } from './horse'
 import { lamb } from './lamb'
@@ -15,6 +16,7 @@ import { lion } from './lion'
 import { moose } from './moose'
 import { pig } from './pig'
 import { possum } from './possum'
+import { prayingMonkey } from './praying-monkey'
 import { snail } from './snail'
 import { snake } from './snake'
 import { teddyBear } from './teddy-bear'
@@ -32,6 +34,7 @@ const animals = {
   donkey,
   elephant,
   frog,
+  hangingMonkey,
   happyDog,
   horse,
   lamb,
@@ -39,6 +42,7 @@ const animals = {
   moose,
   pig,
   possum,
+  prayingMonkey,
   snail,
   snake,
   teddyBear,
