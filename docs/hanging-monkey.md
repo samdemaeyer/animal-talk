@@ -2,7 +2,8 @@
 
 ````
 $ animaltalk -t 'Hello I am a hanging monkey, nice to meet you!' -a hangingMonkey
-
+```
+```
                                             .'\
                             .-.            /   ;
                           .' /            |  | |

@@ -2,7 +2,9 @@
 
 ```
 $ animaltalk -t 'Hello I am a crocodile, nice to meet you!' -a crocodile
+```
 
+```
                        .--.  .--.
                       /    \/    \
                      /   .-.  .-. |

@@ -2,7 +2,9 @@
 
 ```
 $ animaltalk -t 'Hello I am a cat, nice to meet you!' -a cat
+```
 
+```
                 -----------------------------------------
                <   Hello I am a cat, nice to meet you!   >
                 -----------------------------------------
