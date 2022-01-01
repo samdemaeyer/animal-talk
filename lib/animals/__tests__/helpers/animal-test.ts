@@ -1,7 +1,6 @@
 import type { Animal, AnimalArgs } from '../../../types'
 import { createSpeechBubble } from '../../../utils'
 import { readOutput } from './read-output'
-import * as genTxt from './generate-txt'
 
 jest.mock('colors', () => ({
   __esModule: true,
@@ -11,7 +10,6 @@ jest.mock('colors', () => ({
 
 export const animalTest = (animalFn: (args: AnimalArgs) => string) => {
   const fnName = animalFn.name as Animal
-  genTxt
   describe(`${fnName}()`, () => {
     it(`should return the \`${fnName}\` with the correct speech bubble`, () => {
       expect(animalFn({ createSpeechBubble, text: 'Some text' })).toBe(readOutput(fnName))
