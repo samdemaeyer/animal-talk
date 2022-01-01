@@ -32,35 +32,35 @@ When using the `animaltalk` command, there are some options that can be specefie
 
 #### Animals
 
-- `aardvark`
-- `antelope`
-- `bat`
-- `bird`
-- `bulldog`
-- `bunny`
-- `cat`
-- `cow`
-- `crocodile`
-- `deer`
-- `donkey`
-- `elephant`
-- `frog`
-- `happyDog`
-- `hangingMonkey`
-- `horse`
-- `lamb`
-- `lion`
-- `moose`
-- `parrot`
-- `pig`
-- `possum`
-- `prayingMonkey`
-- `random`
-- `snail`
-- `snake`
-- `teddyBear`
-- `turtle`
-- `worm`
+- [`aardvark`](docs/aardvark.md)
+- [`antelope`](docs/antelope.md)
+- [`bat`](docs/bat.md)
+- [`bird`](docs/bird.md)
+- [`bulldog`](docs/bulldog.md)
+- [`bunny`](docs/bunny.md)
+- [`cat`](docs/cat.md)
+- [`cow`](docs/cow.md)
+- [`crocodile`](docs/crocodile.md)
+- [`deer`](docs/deer.md)
+- [`donkey`](docs/donkey.md)
+- [`elephant`](docs/elephant.md)
+- [`frog`](docs/frog.md)
+- [`happyDog`](docs/happy-dog.md)
+- [`hangingMonkey`](docs/hanging-monkey.md)
+- [`horse`](docs/horse.md)
+- [`lamb`](docs/lamb.md)
+- [`lion`](docs/lion.md)
+- [`moose`](docs/moose.md)
+- [`parrot`](docs/parrot.md)
+- [`pig`](docs/pig.md)
+- [`possum`](docs/possum.md)
+- [`prayingMonkey`](docs/praying-monkey.md)
+- [`snail`](docs/snail.md)
+- [`snake`](docs/snake.md)
+- [`teddyBear`](docs/teddy-bear.md)
+- [`turtle`](docs/turtle.md)
+- [`worm`](docs/worm.md)
+- `random` (any of the above)
 
 #### Colors
 
