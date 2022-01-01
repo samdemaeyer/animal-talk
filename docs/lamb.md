@@ -1,9 +1,11 @@
 ## Lamb
 
 ```
- -----------------------------------------------------
-<   Some longer text to be put in the speech bubble   >
- -----------------------------------------------------
+$ animaltalk -t 'Hello I am a lamb, nice to meet you!' -a lamb
+
+       ------------------------------------------
+      <   Hello I am a lamb, nice to meet you!   >
+       ------------------------------------------
                      _,._   \
                  __.'   _)   \
                 <_,)'.-"a\   /

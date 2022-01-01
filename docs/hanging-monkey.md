@@ -1,6 +1,7 @@
 ## Hanging Monkey
 
 ````
+$ animaltalk -t 'Hello I am a hanging monkey, nice to meet you!' -a hangingMonkey
 
                                             .'\
                             .-.            /   ;
@@ -37,7 +38,7 @@
       `.,   |  `-.o_\    _.-'        //
         /|'-'\_7,_,' `-'`           //
                                    //
-        -----------------------------------------------------
-       <   Some longer text to be put in the speech bubble   >
-        -----------------------------------------------------
+         ----------------------------------------------------
+        <   Hello I am a hanging monkey, nice to meet you!   >
+         ----------------------------------------------------
 ````

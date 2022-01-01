@@ -1,9 +1,11 @@
 ## Parrot
 
 ```
- -----------------------------------------------------
-<   Some longer text to be put in the speech bubble   >
- -----------------------------------------------------
+$ animaltalk -t 'Hello I am a parrot, nice to meet you!' -a parrot
+
+    --------------------------------------------
+   <   Hello I am a parrot, nice to meet you!   >
+    --------------------------------------------
                           \
               __.------.   \
            .-' .---.    \   \

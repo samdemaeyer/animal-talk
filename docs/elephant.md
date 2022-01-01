@@ -1,9 +1,11 @@
 ## Elephant
 
 ```
- -----------------------------------------------------
-<   Some longer text to be put in the speech bubble   >
- -----------------------------------------------------
+$ animaltalk -t 'Hello I am a elephant, nice to meet you!' -a elephant
+
+ -----------------------------------------------
+<   Hello I am an elephant, nice to meet you!   >
+ -----------------------------------------------
         /
        /
       /       ___.-~"~-._   __....__

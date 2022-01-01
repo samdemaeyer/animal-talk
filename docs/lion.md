@@ -1,9 +1,11 @@
 ## Lion
 
 ```
-           -----------------------------------------------------
-          <   Some longer text to be put in the speech bubble   >
-           -----------------------------------------------------
+$ animaltalk -t 'Hello I am a lion, nice to meet you!' -a lion
+
+                 ------------------------------------------
+                <   Hello I am a lion, nice to meet you!   >
+                 ------------------------------------------
                                       \
                           ,%%%%%%%,    \
                         ,%%/\%%%%/\%,   \

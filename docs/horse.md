@@ -1,9 +1,11 @@
 ## Horse
 
 ```
-             -----------------------------------------------------
-            <   Some longer text to be put in the speech bubble   >
-             -----------------------------------------------------
+$ animaltalk -t 'Hello I am a horse, nice to meet you!' -a horse
+
+                  -------------------------------------------
+                 <   Hello I am a horse, nice to meet you!   >
+                  -------------------------------------------
                                         \
                                          \
                             _(\_/)       /

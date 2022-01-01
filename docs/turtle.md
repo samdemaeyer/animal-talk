@@ -1,9 +1,11 @@
 ## Turtle
 
 ```
- -----------------------------------------------------
-<   Some longer text to be put in the speech bubble   >
- -----------------------------------------------------
+$ animaltalk -t 'Hello I am a turtle, nice to meet you!' -a turtle
+
+ --------------------------------------------
+<   Hello I am a turtle, nice to meet you!   >
+ --------------------------------------------
              \
               \                ___-------___
                \           _-~~             ~~-_

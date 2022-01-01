@@ -1,9 +1,11 @@
 ## Donkey
 
 ```
-               -----------------------------------------------------
-              <   Some longer text to be put in the speech bubble   >
-               -----------------------------------------------------
+$ animaltalk -t 'Hello I am a donkey, nice to meet you!' -a donkey
+
+                    --------------------------------------------
+                   <   Hello I am a donkey, nice to meet you!   >
+                    --------------------------------------------
                                           \
                           /\          /\   \
                          ( \\        // )   \

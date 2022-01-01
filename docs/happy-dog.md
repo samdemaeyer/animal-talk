@@ -1,9 +1,11 @@
 ## Happy Dog
 
 ```
-                                  -----------------------------------------------------
-                                 <   Some longer text to be put in the speech bubble   >
-                                  -----------------------------------------------------
+$ animaltalk -t 'Hello I am a happy dog, nice to meet you!' -a happyDog
+
+                                      -----------------------------------------------
+                                     <   Hello I am a happy dog, nice to meet you!   >
+                                      -----------------------------------------------
            __.                                               \\
         .-".'                      .--.            _..._      \\
       .' .'                     .'    \       .-""  __ ""-.    \\

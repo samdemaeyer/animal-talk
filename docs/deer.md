@@ -1,9 +1,11 @@
 ## Deer
 
 ```
- -----------------------------------------------------
-<   Some longer text to be put in the speech bubble   >
- -----------------------------------------------------
+$ animaltalk -t 'Hello I am a deer, nice to meet you!' -a deer
+
+ ------------------------------------------
+<   Hello I am a deer, nice to meet you!   >
+ ------------------------------------------
        /
       /
      /     /|       |\

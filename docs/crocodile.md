@@ -1,6 +1,7 @@
 ## Crocodile
 
 ```
+$ animaltalk -t 'Hello I am a crocodile, nice to meet you!' -a crocodile
 
                        .--.  .--.
                       /    \/    \
@@ -25,7 +26,7 @@
                          .-`'-._          .'      //
                        .'       ``''---''`       //
                                                 //
-                      -----------------------------------------------------
-                     <   Some longer text to be put in the speech bubble   >
-                      -----------------------------------------------------
+                         -----------------------------------------------
+                        <   Hello I am a crocodile, nice to meet you!   >
+                         -----------------------------------------------
 ```

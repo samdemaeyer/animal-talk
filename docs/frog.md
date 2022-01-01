@@ -1,9 +1,11 @@
 ## Frog
 
 `````
-             -----------------------------------------------------
-            <   Some longer text to be put in the speech bubble   >
-             -----------------------------------------------------
+$ animaltalk -t 'Hello I am a frog, nice to meet you!' -a frog
+
+                   ------------------------------------------
+                  <   Hello I am a frog, nice to meet you!   >
+                   ------------------------------------------
                               ..      /
                             .' @`._  /
              ~       ...._.'  ,__.-;

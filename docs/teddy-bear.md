@@ -1,9 +1,11 @@
 ## Teddy Bear
 
 ```
-    -----------------------------------------------------
-   <   Some longer text to be put in the speech bubble   >
-    -----------------------------------------------------
+$ animaltalk -t 'Hello I am a teddy bear, nice to meet you!' -a teddyBear
+
+       ------------------------------------------------
+      <   Hello I am a teddy bear, nice to meet you!   >
+       ------------------------------------------------
                                \
           ,-~-. _.---._ ,-~-.   \
          / .- ,'       `. -. \   |

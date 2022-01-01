@@ -1,9 +1,11 @@
 ## Snake
 
 ```
- -----------------------------------------------------
-<   Some longer text to be put in the speech bubble   >
- -----------------------------------------------------
+$ animaltalk -t 'Hello I am a snake, nice to meet you!' -a snake
+
+ -------------------------------------------
+<   Hello I am a snake, nice to meet you!   >
+ -------------------------------------------
       /
      /
     /       /^\/^\

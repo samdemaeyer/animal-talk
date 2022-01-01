@@ -1,9 +1,11 @@
 ## Bat
 
 ```
-  -----------------------------------------------------
- <   Some longer text to be put in the speech bubble   >
-  -----------------------------------------------------
+$ animaltalk -t 'Hello I am a bat, nice to meet you!' -a bat
+
+        -----------------------------------------
+       <   Hello I am a bat, nice to meet you!   >
+        -----------------------------------------
                              \
                               \
                __           _  \    _           __
