@@ -17,6 +17,7 @@ export const argv = yargs
         'cat',
         'cow',
         'crocodile',
+        'deer',
         'donkey',
         'elephant',
         'frog',

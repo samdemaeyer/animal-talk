@@ -6,6 +6,7 @@ import { bunny } from './bunny'
 import { cat } from './cat'
 import { cow } from './cow'
 import { crocodile } from './crocodile'
+import { deer } from './deer'
 import { donkey } from './donkey'
 import { elephant } from './elephant'
 import { frog } from './frog'
@@ -34,6 +35,7 @@ const animals = {
   cat,
   cow,
   crocodile,
+  deer,
   donkey,
   elephant,
   frog,

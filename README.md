@@ -40,6 +40,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `cat`
 - `cow`
 - `crocodile`
+- `deer`
 - `donkey`
 - `elephant`
 - `frog`
