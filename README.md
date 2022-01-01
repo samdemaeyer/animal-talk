@@ -38,6 +38,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `bulldog`
 - `bunny`
 - `cat`
+- `cow`
 - `crocodile`
 - `donkey`
 - `elephant`

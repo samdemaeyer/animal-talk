@@ -4,6 +4,7 @@ import { bat } from './bat'
 import { bulldog } from './bulldog'
 import { bunny } from './bunny'
 import { cat } from './cat'
+import { cow } from './cow'
 import { crocodile } from './crocodile'
 import { donkey } from './donkey'
 import { elephant } from './elephant'
@@ -31,6 +32,7 @@ const animals = {
   bulldog,
   bunny,
   cat,
+  cow,
   crocodile,
   donkey,
   elephant,
