@@ -35,6 +35,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `aardvark`
 - `antelope`
 - `bat`
+- `bird`
 - `bulldog`
 - `bunny`
 - `cat`

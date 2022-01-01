@@ -1,6 +1,7 @@
 import { aardvark } from './aardvark'
 import { antelope } from './antelope'
 import { bat } from './bat'
+import { bird } from './bird'
 import { bulldog } from './bulldog'
 import { bunny } from './bunny'
 import { cat } from './cat'
@@ -30,6 +31,7 @@ const animals = {
   aardvark,
   antelope,
   bat,
+  bird,
   bulldog,
   bunny,
   cat,
