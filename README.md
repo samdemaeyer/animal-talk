@@ -24,11 +24,57 @@ When using the `animaltalk` command, there are some options that can be specefie
 
 #### Options
 
-| Option             | input                                                                                                                                  | required |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| `-t` \| `--text`   | text to pass through to the animal                                                                                                     | yes      |
-| `-a` \| `--animal` | `aardvark`, `elephant`, `moose`, `pig`, `horse`, `frog`, `donkey`, `possum`, `snail`, `lamb`, `crocodile`, `snake`, `turtle`, `random` | no       |
-| `-c` \| `--color`  | `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `gray`, `grey`, `rainbow`, `america`, `random`                  | no       |
+| Option             | input                                        | required |
+| ------------------ | -------------------------------------------- | -------- |
+| `-t` \| `--text`   | Text to pass through to the animal           | yes      |
+| `-a` \| `--animal` | Chooses one of the below [Animals](#Animals) | no       |
+| `-c` \| `--color`  | Chooses one of the below [Colors](#Colors)   | no       |
+
+#### Animals
+
+- [`aardvark`](docs/aardvark.md)
+- [`antelope`](docs/antelope.md)
+- [`bat`](docs/bat.md)
+- [`bird`](docs/bird.md)
+- [`bulldog`](docs/bulldog.md)
+- [`bunny`](docs/bunny.md)
+- [`cat`](docs/cat.md)
+- [`cow`](docs/cow.md)
+- [`crocodile`](docs/crocodile.md)
+- [`deer`](docs/deer.md)
+- [`donkey`](docs/donkey.md)
+- [`elephant`](docs/elephant.md)
+- [`frog`](docs/frog.md)
+- [`happyDog`](docs/happy-dog.md)
+- [`hangingMonkey`](docs/hanging-monkey.md)
+- [`horse`](docs/horse.md)
+- [`lamb`](docs/lamb.md)
+- [`lion`](docs/lion.md)
+- [`moose`](docs/moose.md)
+- [`parrot`](docs/parrot.md)
+- [`pig`](docs/pig.md)
+- [`possum`](docs/possum.md)
+- [`prayingMonkey`](docs/praying-monkey.md)
+- [`snail`](docs/snail.md)
+- [`snake`](docs/snake.md)
+- [`teddyBear`](docs/teddy-bear.md)
+- [`turtle`](docs/turtle.md)
+- [`worm`](docs/worm.md)
+- `random` (any of the above)
+
+#### Colors
+
+- `black`
+- `blue`
+- `cyan`
+- `gray`
+- `green`
+- `grey`
+- `magenta`
+- `random`
+- `red`
+- `white`
+- `yellow`
 
 #### Example
 

@@ -1,19 +1,17 @@
-import { rainbow, america, random, black, red, green, yellow, blue, magenta, cyan, white, gray, grey } from 'colors'
+import { black, blue, cyan, gray, green, grey, magenta, random, red, white, yellow } from 'colors'
 
 export const colorsMap = {
-  rainbow,
-  america,
-  random,
   black,
-  red,
-  green,
-  yellow,
   blue,
-  magenta,
   cyan,
-  white,
   gray,
+  green,
   grey,
+  magenta,
+  random,
+  red,
+  white,
+  yellow,
 } as const
 
 // @TODO: unify Color type to be used from argv options

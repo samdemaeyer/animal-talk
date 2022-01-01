@@ -10,7 +10,6 @@ jest.mock('colors', () => ({
 
 export const animalTest = (animalFn: (args: AnimalArgs) => string) => {
   const fnName = animalFn.name as Animal
-
   describe(`${fnName}()`, () => {
     it(`should return the \`${fnName}\` with the correct speech bubble`, () => {
       expect(animalFn({ createSpeechBubble, text: 'Some text' })).toBe(readOutput(fnName))
