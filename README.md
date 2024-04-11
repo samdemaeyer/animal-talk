@@ -26,9 +26,10 @@ When using the `animaltalk` command, there are some options that can be specefie
 
 | Option             | input                                        | required |
 | ------------------ | -------------------------------------------- | -------- |
-| `-t` \| `--text`   | Text to pass through to the animal           | yes      |
+| `-t` \| `--text`   | Text to pass through to the animal           | no       |
 | `-a` \| `--animal` | Chooses one of the below [Animals](#Animals) | no       |
 | `-c` \| `--color`  | Chooses one of the below [Colors](#Colors)   | no       |
+| `-j` \| `--joke`   | When selected, the animal will tell a joke   | no       |
 
 #### Animals
 
@@ -76,7 +77,7 @@ When using the `animaltalk` command, there are some options that can be specefie
 - `white`
 - `yellow`
 
-#### Example
+#### Examples
 
 ```bash
 $ animaltalk -t 'Hello there, how are you?' -a pig -c magenta
@@ -106,4 +107,39 @@ $ animaltalk -t 'Hello there, how are you?' -a pig -c magenta
 ```
 
 The output will be in color as the image below illustrates
-![Output example](./docs/output.png)
+![Output example](./docs/output-1.png)
+
+---
+
+```bash
+$ animaltalk -j -a snake -c yellow
+```
+
+```
+ -----------------------------------------------------
+<   Which vegetable does a pirate never eat? Leeks.   >
+ -----------------------------------------------------
+      /
+     /
+    /       /^\/^\
+    \    _|__|  O|
+ \/  \ /~     \_/ \
+  \____|__________/  \
+         \_______      \
+                 `\     \                 \
+                   |     |                  \
+                  /      /                    \
+                 /     /                       \\
+               /      /                         \ \
+              /     /                            \  \
+            /     /             _----_            \   \
+           /     /           _-~      ~-_         |   |
+          (      (        _-~    _--_    ~-_     _/   |
+           \      ~-____-~    _-~    ~-_    ~-_-~    /
+             ~-_           _-~          ~-_       _-~
+                ~--______-~                ~-___-~
+
+```
+
+The output will be in color as the image below illustrates
+![Output example](./docs/output-2.png)

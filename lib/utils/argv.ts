@@ -3,7 +3,13 @@ import yargs from 'yargs'
 export const argv = yargs
   .usage('Usage: -t <text>')
   .options({
-    t: { alias: 'text', describe: 'The text the animal will say', type: 'string', demandOption: true },
+    t: { alias: 'text', describe: 'The text the animal will say', type: 'string', demandOption: false },
+    j: {
+      alias: 'joke',
+      describe: 'When set to true, the animal will tell a joke',
+      type: 'boolean',
+      demandOption: false,
+    },
     a: {
       alias: 'animal',
       describe: 'Choose and animal',
