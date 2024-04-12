@@ -1,6 +1,6 @@
 {
   "name": "animal-talk",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "CLI tool to print out messages spoken by ASCII art animals",
   "main": "./dist/talk.js",
   "scripts": {
